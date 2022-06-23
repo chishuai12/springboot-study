@@ -8,3 +8,5 @@
     # 设置虚拟目录
     server.servlet.context-path=/kuang
 ```
+
+mac update
