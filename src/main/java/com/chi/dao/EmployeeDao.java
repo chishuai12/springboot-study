@@ -20,11 +20,11 @@ public class EmployeeDao {
 
     static {
         employees = new HashMap<Integer, Employee>();
-        employees.put(1001,new Employee(1001,"AA","",0,new Department(101,"教学部")));
-        employees.put(1002,new Employee(1002,"BB","",1,new Department(102,"市场部")));
-        employees.put(1003,new Employee(1003,"CC","",0,new Department(103,"教研部")));
-        employees.put(1004,new Employee(1004,"DD","",1,new Department(104,"运营部")));
-        employees.put(1005,new Employee(1005,"EE","",0,new Department(105,"后勤部")));
+        employees.put(1001,new Employee(1001,"AA","AA@qq.com",0,new Department(101,"教学部")));
+        employees.put(1002,new Employee(1002,"BB","BB@qq.com",1,new Department(102,"市场部")));
+        employees.put(1003,new Employee(1003,"CC","CC@qq.com",0,new Department(103,"教研部")));
+        employees.put(1004,new Employee(1004,"DD","DD@qq.com",1,new Department(104,"运营部")));
+        employees.put(1005,new Employee(1005,"EE","EE@qq.com",0,new Department(105,"后勤部")));
     }
 
     // 主键自增
