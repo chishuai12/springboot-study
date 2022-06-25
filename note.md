@@ -2,6 +2,8 @@
 
 git 创建秘钥 ssh-keygen -t rsa -C chishuai12@163.com
 
+git push git@github.com:chishuai12/springboot-study.git
+
 1.首页配置：注意点，所有页面的静态资源都需要使用thymeleaf接管。URL @{}
 ```properties
     # 关闭模板引擎的缓存
