@@ -10,6 +10,7 @@ git 创建秘钥 ssh-keygen -t rsa -C chishuai12@163.com
     # 设置虚拟目录
     server.servlet.context-path=/kuang
 ```
+
 2.页面国际化
     1.我们需要配置i18n文件
     2.我们如果需要在项目中进行按钮的自动切换，我们需要自定义一个组件LocaleResolver
@@ -24,3 +25,4 @@ git 创建秘钥 ssh-keygen -t rsa -C chishuai12@163.com
         2.<div th:insert="~{commons/commons::sidebar(active='main')}"></div>
         3.如果要传递参数，可以直接使用（）传参，接收判断即可！
     2.
+
