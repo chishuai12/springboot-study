@@ -8,6 +8,7 @@ class SpringbootStudyApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("IDEA commit test!");
     }
 
 }
